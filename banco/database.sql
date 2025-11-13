@@ -1,5 +1,7 @@
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
+CREATE DATABASE projetolpdb;
+
 CREATE TYPE user_role AS ENUM ('student', 'teacher', 'admin');
 
 CREATE TYPE enrollment_status AS ENUM (
